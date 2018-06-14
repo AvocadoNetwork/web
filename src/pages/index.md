@@ -20,18 +20,17 @@ intro:
         Avocado token bounties are often awarded for completing tasks!
     - image: /img/tutorials.png
       text: >
-        Please donate Avocado tokens to the Avocado Bounty Pool. This fund is used to incentivise developers and creative people to work on projects for Avocado.
+        Please donate Avocado tokens to the Avocado Bounty Pool.
+        This fund is used to incentivise developers and creative people to work on projects for Avocado.
+        Small amounts of ETH are also very welcome for transaction fees.
         Address: 0x7d0ebffc56429c818f34d0b46e239436fbe0fa5f
     - image: /img/meeting-space.png
       text: >
         Please share your tokens with friends and help grow the Avocado network.
 main:
-  heading: Great coffee with no compromises
+  heading: Heading goes here
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+    Text goes here
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg

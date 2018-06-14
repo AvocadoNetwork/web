@@ -5,7 +5,7 @@ import twitter from '../img/Twitter_Logo_Blue.svg'
 import facebook from '../img/Facebook_icon.svg'
 import telegram from '../img/Telegram_logo.svg'
 import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+import logo from '../img/logo.jpg'
 
 const Navbar = () => (
   <nav className="navbar is-transparent">
@@ -13,7 +13,7 @@ const Navbar = () => (
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">
           <figure className="image">
-            <img src={logo} alt="Avocado" style={{ width: '88px' }} />
+            <img src={logo} alt="Avocado Token" style={{ width: '120px' }} />
           </figure>
         </Link>
       </div>

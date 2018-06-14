@@ -34,7 +34,10 @@ export const ProductPageTemplate = ({
                     padding: '1rem',
                   }}
                 >
-                  {title}
+                  <img
+                        style={{ borderRadius: '1px' }}
+                        src={title}
+                      />
                 </h2>
               </div>
               <div className="columns">

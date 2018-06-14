@@ -11,9 +11,6 @@ export const IndexPageTemplate = ({
   description,
   intro,
   main,
-  testimonials,
-  fullImage,
-  pricing,
 }) => (
   <section className="section section--gradient">
     <div className="container">
@@ -84,16 +81,6 @@ export const IndexPageTemplate = ({
                   </div>
                 </div>
               </div>
-              <Testimonials testimonials={testimonials} />
-              <div
-                className="full-width-image-container"
-                style={{ backgroundImage: `url(${fullImage})` }}
-              />
-              <h2 className="has-text-weight-semibold is-size-2">
-                {pricing.heading}
-              </h2>
-              <p className="is-size-5">{pricing.description}</p>
-              <Pricing data={pricing.plans} />
             </div>
           </div>
         </div>
@@ -117,13 +104,6 @@ IndexPageTemplate.propTypes = {
     image2: PropTypes.object,
     image3: PropTypes.object,
   }),
-  testimonials: PropTypes.array,
-  fullImage: PropTypes.string,
-  pricing: PropTypes.shape({
-    heading: PropTypes.string,
-    description: PropTypes.string,
-    plans: PropTypes.array,
-  }),
 }
 
 const IndexPage = ({ data }) => {
@@ -137,9 +117,6 @@ const IndexPage = ({ data }) => {
       description={frontmatter.description}
       intro={frontmatter.intro}
       main={frontmatter.main}
-      testimonials={frontmatter.testimonials}
-      fullImage={frontmatter.full_image}
-      pricing={frontmatter.pricing}
     />
   )
 }
@@ -184,21 +161,6 @@ export const indexPageQuery = graphql`
           image3 {
             alt
             image
-          }
-        }
-        testimonials {
-          author
-          quote
-        }
-        full_image
-        pricing {
-          heading
-          description
-          plans {
-            description
-            items
-            plan
-            price
           }
         }
       }

@@ -31,11 +31,10 @@ export const ProductPageTemplate = ({
                     boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
                     backgroundColor: '#f40',
                     color: 'white',
-                    padding: '1rem',
                   }}
                 >
                   <img
-                        style={{ borderRadius: '1px' }}
+                        style={{ width: '500px' }}
                         src={title}
                       />
                 </h2>

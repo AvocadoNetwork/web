@@ -13,7 +13,7 @@ const Navbar = () => (
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">
           <figure className="image">
-            <img src={logo} alt="Avocado Token" style={{ width: '120px' }} />
+            <img src={logo} alt="Avocado Token" style={{ width: '130px' }} />
           </figure>
         </Link>
       </div>

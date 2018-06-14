@@ -23,7 +23,7 @@ intro:
         Please donate Avocado tokens to the Avocado Bounty Pool.
         This fund is used to incentivise developers and creative people to work on projects for Avocado.
         Small amounts of ETH are also very welcome for transaction fees.
-        Address: 0x7d0ebffc56429c818f34d0b46e239436fbe0fa5f
+        0x7d0ebffc56429c818f34d0b46e239436fbe0fa5f
     - image: /img/meeting-space.png
       text: >
         Please share your tokens with friends and help grow the Avocado network.

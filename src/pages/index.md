@@ -1,6 +1,6 @@
 ---
-templateKey: 'product-page'
-path: /products
+templateKey: 'index-page'
+path: /
 title: /img/title.jpg
 image: /img/jumbotron.jpg
 heading: What we offer

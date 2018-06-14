@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 import twitter from '../img/Twitter_Logo_Blue.svg'
-import facebock from '../img/Facebook_icon.svg'
+import facebook from '../img/Facebook_icon.svg'
 import telegram from '../img/Telegram_logo.svg'
 import github from '../img/github-icon.svg'
 import logo from '../img/logo.svg'

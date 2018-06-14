@@ -25,11 +25,13 @@ export const ProductPageTemplate = ({
                 className="full-width-image-container margin-top-0"
                 style={{ backgroundImage: `url(${image})` }}
               >
-                <div className="container">
-                  <img
-                    style={{ width: '500px' }}
-                    src={title}
-                  />
+                <div className="columns is-centered">
+                  <div className="column">
+                    <img
+                      style={{ width: '500px' }}
+                      src={title}
+                    />
+                  </div>
                 </div>
               </div>
               <div className="columns">
